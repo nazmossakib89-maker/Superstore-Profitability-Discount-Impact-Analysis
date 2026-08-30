@@ -5,7 +5,7 @@ An end-to-end data analytics project uncovering profitability drivers and discou
 
 This project moves beyond sales volume to analyze profitability — identifying which product categories, regions, and discount levels are actually profitable versus loss-making. The goal was to practice a full analyst workflow — from raw data cleaning to PivotTable exploration, SQL verification, and a decision-ready Power BI dashboard — while uncovering insights a surface-level sales report would miss.
 
-Dataset: Sample Superstore dataset (widely used for retail analytics practice), containing 9,994 transactions with fields including Sales, Profit, Discount, Category, Sub-Category, Region, State, Segment, and Ship Mode.
+Dataset: [Superstore Dataset – Final](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final) (public dataset, Kaggle), containing 9,994 transactions with fields including Sales, Profit, Discount, Category, Sub-Category, Region, State, Segment, and Ship Mode.
 
 
 ## ❓ Business Questions
@@ -43,3 +43,5 @@ Three PivotTables and charts were built to answer the core business questions:
 Profitability is positive at 20% discount or below, and turns sharply negative beyond that threshold — reaching a margin of -122.6% at discounts above 60%, meaning the business loses more than a dollar for every dollar of sales in that band. This pattern held across a substantial sample (1,393 orders, ~14% of all transactions), not just a handful of outliers.
 
 4. Top Loss-Making Products Ranking all products by total profit surfaced a mix that category-level analysis alone would not predict: the single biggest loss-maker is a Technology product — the Cubify CubeX 3D Printer (Double Head, -$8,880) — despite Technology being the highest-margin category overall (17.4%). Of the top 10 loss-making products, 5 are Furniture items (mostly tables and conference furniture, reinforcing the earlier sub-category finding), 3 are high-value Technology products (3D printers, a laser printer, a videoconferencing unit), and 2 are Office Supplies. This shows that category-wide profitability can mask a small number of specific, high-cost, low-margin products driving outsized losses.
+
+📂 [View Excel Analysis](Excel%20Analysis/superstore_profitability_analysis.xlsx)
