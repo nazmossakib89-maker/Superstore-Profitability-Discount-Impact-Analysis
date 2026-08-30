@@ -24,7 +24,7 @@ The raw dataset (9,994 transactions) was imported into Excel and converted into 
 
 Two calculated columns were added: Profit Margin (Profit ÷ Sales, to measure efficiency rather than raw profit) and Discount Bucket (grouping transactions into No Discount, Low 1–20%, Medium 21–40%, High 41–60%, and Very High 60%+, using nested IF logic).
 
-# Three PivotTables and charts were built to answer the core business questions:
+Three PivotTables and charts were built to answer the core business questions:
 
 1. Profitability by Category and Sub-Category At the category level, all three categories appear profitable — but margins tell a different story: Technology (17.4%) and Office Supplies (17.0%) are efficient, while Furniture lags far behind at just 2.5%, despite generating nearly as much revenue as Technology ($742K vs $836K). Drilling into sub-categories revealed why: Tables (-$17,725) and Bookcases (-$3,473) are outright loss-making, with their losses masked at the category level by strong performers like Chairs (+$26,590) and Furnishings (+$13,059). Supplies, within Office Supplies, is also loss-making (-$1,189).
 
@@ -32,12 +32,13 @@ Two calculated columns were added: Profit Margin (Profit ÷ Sales, to measure ef
 
 3. Discount Impact on Profitability This was the most decisive finding of the analysis. Grouping all 9,994 transactions into discount bands revealed a clear tipping point around the 20% discount mark:
 
-Discount Level	Orders	Profit Margin
-No Discount	4,798	29.5%
-Low (1–20%)	3,803	11.9%
-Medium (21–40%)	460	-15.3%
-High (41–60%)	215	-40.7%
-Very High (60%+)	718	-122.6%
+| Discount Level | Orders | Profit Margin |
+|---|---|---|
+| No Discount | 4,798 | 29.5% |
+| Low (1–20%) | 3,803 | 11.9% |
+| Medium (21–40%) | 460 | -15.3% |
+| High (41–60%) | 215 | -40.7% |
+| Very High (60%+) | 718 | -122.6% |
 
 Profitability is positive at 20% discount or below, and turns sharply negative beyond that threshold — reaching a margin of -122.6% at discounts above 60%, meaning the business loses more than a dollar for every dollar of sales in that band. This pattern held across a substantial sample (1,393 orders, ~14% of all transactions), not just a handful of outliers.
 
