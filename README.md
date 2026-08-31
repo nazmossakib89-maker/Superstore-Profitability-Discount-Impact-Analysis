@@ -45,3 +45,13 @@ Profitability is positive at 20% discount or below, and turns sharply negative b
 4. Top Loss-Making Products Ranking all products by total profit surfaced a mix that category-level analysis alone would not predict: the single biggest loss-maker is a Technology product — the Cubify CubeX 3D Printer (Double Head, -$8,880) — despite Technology being the highest-margin category overall (17.4%). Of the top 10 loss-making products, 5 are Furniture items (mostly tables and conference furniture, reinforcing the earlier sub-category finding), 3 are high-value Technology products (3D printers, a laser printer, a videoconferencing unit), and 2 are Office Supplies. This shows that category-wide profitability can mask a small number of specific, high-cost, low-margin products driving outsized losses.
 
 📂 [View Excel Analysis](Excel%20Analysis/superstore_profitability_analysis.xlsx)
+
+
+## 🗄️ SQL Analysis
+
+All 9,994 records were loaded into a MySQL database (superstore.orders) to independently verify the Excel findings using GROUP BY, CASE WHEN, and aggregate queries, and to answer two additional business questions not covered in Excel.
+
+Cross-validation: Category, sub-category, region, state, and discount-bucket profitability figures were recalculated in SQL and matched the Excel results exactly — confirming the findings are consistent and not the result of a spreadsheet error. The discount tipping point in particular was reproduced precisely (e.g., -122.63% margin at 60%+ discount), reinforcing that this is a stable, real pattern in the data.
+
+1. Customer Segment Profitability Segment-level analysis (not covered in Excel) revealed a counterintuitive pattern: Consumer, the largest segment by both order count (5,191 orders, ~52% of all orders) and revenue ($1.16M), has the lowest profit margin at 11.55%. Home Office, the smallest segment (1,783 orders), is the most efficient at 14.03%, with Corporate in between (13.03%). This suggests the business's highest-volume customer segment is also its least profitable on a per-dollar basis.
+
