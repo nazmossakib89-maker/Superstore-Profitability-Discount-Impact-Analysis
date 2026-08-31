@@ -59,3 +59,5 @@ Cross-validation: Category, sub-category, region, state, and discount-bucket pro
 
 3. Top Loss-Making Products (verified) Re-running the loss-making product ranking in SQL, with order frequency added, sharpened the earlier Excel finding: the single biggest loss-maker, the Cubify CubeX 3D Printer (Double Head), was ordered only 3 times yet lost a combined -$8,880 — an average loss of nearly $2,960 per order. This points to a severe per-unit pricing or discounting issue on this specific product, rather than a high-volume, small-margin problem.
 
+📂 [View SQL Analysis](SQL%20Analysis/Superstore%20Profitability%20SQL%20Analysis.sql)
+
