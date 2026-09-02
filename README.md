@@ -101,5 +101,12 @@ This project was built as a hands-on exercise in the full analyst workflow — c
 * Two calculated fields (Profit Margin and Discount Bucket) were added specifically to answer the core business questions — Profit Margin to measure efficiency rather than raw dollar profit, and Discount Bucket to group transactions for tipping-point analysis.
 
 
+## Tools Used
+
+**Excel** — data exploration, cleaning, and PivotTable analysis
+**SQL (MySQL)** — querying and validating findings via MySQL Workbench
+**Power BI** — interactive dashboard and visualization
+
+
 
 
