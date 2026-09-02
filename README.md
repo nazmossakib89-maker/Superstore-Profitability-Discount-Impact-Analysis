@@ -83,4 +83,13 @@ A single-page interactive dashboard was built to consolidate the Excel and SQL f
 📁 [Download the Power BI file](Dashboard/superstore_dashboard.pbix)
 
 
+## Key Takeaways
+
+* Profitability, not sales volume, tells the real story. Furniture generates revenue nearly on par with Technology ($742K vs $836K) but returns 7x less profit margin (2.5% vs 17.4%) — category-level revenue figures alone would have missed this.
+* Losses hide inside profitable categories. Tables and Bookcases are outright loss-making sub-categories, but their losses are masked at the category level by strong performers like Chairs and Furnishings.
+* Discounting has a clear tipping point. Profit stays positive at discounts of 20% or below, then turns sharply negative beyond that — reaching a -122.6% margin at discounts above 60%, confirmed independently in both Excel and SQL.
+* High volume doesn't mean high efficiency. The Consumer segment generates the most orders and revenue but has the lowest profit margin (11.55%) of the three customer segments — Home Office, the smallest segment, is the most efficient (14.03%).
+* A handful of products drive outsized losses. The single biggest loss-maker — a Technology product ordered only 3 times — lost nearly $2,960 per order, despite Technology being the highest-margin category overall.
+
+
 
