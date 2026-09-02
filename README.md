@@ -92,4 +92,14 @@ A single-page interactive dashboard was built to consolidate the Excel and SQL f
 * A handful of products drive outsized losses. The single biggest loss-maker — a Technology product ordered only 3 times — lost nearly $2,960 per order, despite Technology being the highest-margin category overall.
 
 
+## Notes on This Project
+
+This project was built as a hands-on exercise in the full analyst workflow — cleaning raw data, validating findings across multiple tools, and communicating results clearly. A few decisions are worth calling out:
+
+* All profitability figures were cross-verified between Excel PivotTables and SQL aggregate queries to confirm the findings weren't the result of a spreadsheet error.
+* The Discount field was stored as a decimal (e.g., 0.2 = 20%) rather than a percentage — this was checked explicitly before building the Discount Bucket grouping, to avoid misclassifying transactions.
+* Two calculated fields (Profit Margin and Discount Bucket) were added specifically to answer the core business questions — Profit Margin to measure efficiency rather than raw dollar profit, and Discount Bucket to group transactions for tipping-point analysis.
+
+
+
 
