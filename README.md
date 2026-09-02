@@ -61,3 +61,22 @@ Cross-validation: Category, sub-category, region, state, and discount-bucket pro
 
 📂 [View SQL Analysis](SQL%20Analysis/Superstore%20Profitability%20SQL%20Analysis.sql)
 
+
+## 📊 Power BI Dashboard
+
+A single-page interactive dashboard was built to consolidate the Excel and SQL findings into a decision-ready visual format, combining four KPI summary cards, four core visuals, and a narrative insights panel.
+
+**KPI Summary Cards:** Total Sales ($2.29M), Total Profit ($286K), overall Profit Margin (12.47%), and Order Count (5,009) give an at-a-glance view of business scale and health before drilling into detail.
+
+**Profitability by Product Sub-Category:** A horizontal bar chart ranks all 17 sub-categories by profit, immediately isolating the three loss-makers (Tables, Bookcases, Supplies) that are otherwise hidden within profitable parent categories — visually reinforcing the Excel finding that category-level numbers can mask sub-category losses.
+
+**Discount Level vs. Profit Margin Impact:** A column chart across the five discount bands (No Discount → Very High 60%+) makes the profitability tipping point immediately visible — profit stays strongly positive through the "Low" discount band and turns sharply negative from "Medium" onward, visually confirming the -122.6% margin finding at the highest discount tier.
+
+**Profit Share by Region:** A donut chart breaks down the $286K total profit across West (37.9%), East (32.0%), South (16.3%), and Central (13.9%) — showing that while all regions are profitable overall, West alone generates over a third of total profit, consistent with the state-level analysis in SQL.
+
+**Top 10 Loss-Making Products:** A ranked bar chart of the ten biggest individual loss-makers surfaces the Cubify CubeX 3D Printer as the single largest loss, alongside a mix of Furniture and Technology products — reinforcing that a handful of specific SKUs, not entire categories, are driving the worst losses.
+
+**Key Insights Panel:** A dedicated summary panel distills the four most decisive findings from the full analysis — Furniture's margin gap, the 10 loss-making states, the 20% discount tipping point, and the Technology-category loss anomaly — into a scannable, narrative format that summarizes the core story without requiring a full read of the report.
+
+
+
