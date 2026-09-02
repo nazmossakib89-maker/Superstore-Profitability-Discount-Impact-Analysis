@@ -108,5 +108,10 @@ This project was built as a hands-on exercise in the full analyst workflow — c
 **Power BI** — interactive dashboard and visualization
 
 
+## Contact
+Feel free to reach out if you have questions about this project or would like to discuss it further.
+
+Nazmus Sakib [LinkedIn](https://www.linkedin.com/in/nazmus-sakib-econ/) | [nazmossakib89@gmail.com](mailto:nazmossakib89@gmail.com)
+
 
 
