@@ -78,5 +78,7 @@ A single-page interactive dashboard was built to consolidate the Excel and SQL f
 
 **Key Insights Panel:** A dedicated summary panel distills the four most decisive findings from the full analysis — Furniture's margin gap, the 10 loss-making states, the 20% discount tipping point, and the Technology-category loss anomaly — into a scannable, narrative format that summarizes the core story without requiring a full read of the report.
 
+📁 [Download the Power BI file](Dashboard/superstore_dashboard.pbix)
+
 
 
